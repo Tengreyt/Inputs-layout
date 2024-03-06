@@ -1,4 +1,6 @@
+@import url('./style.css');
 @media (max-width:425px){
+  
     .title-header{
         padding-top: 60px;
         font-size: 44px;
@@ -36,7 +38,7 @@
         font-family: "Anta", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 28px;
+        font-size: 26px;
         
         color: var(--mdn-color-black);
     }
