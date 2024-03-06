@@ -33,24 +33,6 @@ body{
     font-style: normal;
     
 }
-/* ======================================== */
-pre{
-    background-color: #00000076;
-    
-    margin: 40px 0px 2rem 0px;
-    padding: 40px 20px 40px 20px;
-}
-pre>code{
-    padding: 0px 0px 0px 0px;
-
-}
-.comment {
-    color: #ffffff50;
-}
-.property{
-    color: var(--color-announcement-banner-accent);
-}
-/* ========================================= */
 .container{
     display: flex;
     flex-direction: column;
@@ -74,7 +56,7 @@ input{
     background-color: inherit;
     outline: none;
     
-    width: 450px;
+    width: 540px;
 }
 .content{
     display: flex;

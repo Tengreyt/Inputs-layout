@@ -9,24 +9,6 @@
         font-weight: 400;
         font-style: normal;
     }
-    /* ======================================== */
-    pre{
-        display: flex;
-        flex-direction: row;
-        white-space: pre;
-        background-color: #00000076;
-        margin-left: 10px;
-    }
-    pre>code{
-        padding: 0px 0px 0px 0px;
-    }
-    .comment {
-        color: #ffffff50;
-    }
-    .property{
-        color: var(--color-announcement-banner-accent);
-    }
-    /* ========================================= */
     .block{
         height: 250px;
         width: 330px;
