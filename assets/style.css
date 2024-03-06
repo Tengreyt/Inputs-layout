@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&display=swap');
+:root{
+    --mdn-color-white: #fff;
+    --mdn-color-black: #000;
+    --mdn-color-ads: #00d0aa;
+    --mdn-color-background-highlight: #f0e498;
+    --mdn-color-dark-grey: #4e4e4e;
+    --mdn-background-dark: #1b1b1b;
+    --mdn-background-light: #fff;
+    --mdn-background-light-grey: #e2e2e2;
+    --color-announcement-banner-accent: #ff6d91;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./Mello.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00d0aa;
+}
+.title-header{
+    padding-top: 60px;
+    font-size: 48px;
+    color: var(--mdn-color-black);
+    text-align: center;
+
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+/* ======================================== */
+pre{
+    background-color: #00000076;
+    
+    margin: 40px 0px 2rem 0px;
+    padding: 40px 20px 40px 20px;
+}
+pre>code{
+    padding: 0px 0px 0px 0px;
+
+}
+.comment {
+    color: #ffffff50;
+}
+.property{
+    color: var(--color-announcement-banner-accent);
+}
+/* ========================================= */
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.block{
+    height: 400px;
+    width: 500px;
+    border: 3px solid black;
+    transition: all .4s ease;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 50px 10px 12px;
+    background-color: inherit;
+    outline: none;
+    
+    width: 450px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   margin-top: 120px;
+}
+.content h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    
+    color: var(--mdn-color-black);
+}
+.content span{
+    border-bottom:2px solid black;
+}
+.sub-title{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    padding-top: 40px;
+}
+p{
+    text-indent: 20px;
+    text-align: justify;
+    max-width: 700px;
+    font-size: 24px;
+    color: var(--mdn-color-black);
+}
+.subs-title{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 5px;
+}
+.subt-title{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 5px;
+}
